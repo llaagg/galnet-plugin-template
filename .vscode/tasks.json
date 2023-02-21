@@ -9,7 +9,9 @@
                 "build",
                 "${workspaceFolder}/Galnet.Plugin.Home/Galnet.Plugin.Home.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "-o",
+                "${workspaceFolder}/build/"
             ],
             "problemMatcher": "$msCompile"
         },

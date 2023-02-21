@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Galnet.Plugin.Base" Version="1.0.41" />
+  </ItemGroup>
+
 </Project>
