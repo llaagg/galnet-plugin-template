@@ -9,7 +9,7 @@ public class SimplePlugins : Plugin.Base.PluginRegistry
         this.AddPlugin(this.Nop);
     }
 
-    private void Nop(IContext context)
+    public void Nop(IContext context)
     {
         Console.WriteLine("nop");
     }
