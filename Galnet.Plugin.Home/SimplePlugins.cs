@@ -2,7 +2,7 @@
 
 namespace Galnet.Plugin.Home;
 
-public class SimplePlugins : Plugin.Base.PluginRegistry
+public class SimplePlugins : Plugin.Base.BasePluginRegistry
 {
     public override void OnInit()
     {
